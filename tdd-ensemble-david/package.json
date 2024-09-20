@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "TDD Example for SoCraTesAT 2024",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"
