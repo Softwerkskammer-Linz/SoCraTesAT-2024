@@ -4,6 +4,7 @@
 
 * [TDD Ensemble](tdd-ensemble-david)
 * [Software Crafting Discussion](software-crafting-discussion)
+* [Running LLMs on your hardware with Ollama](running-llms-on-your-hardware-with-ollama)
 
 ## Day Two: 21st Sept. 2024
 
