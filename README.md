@@ -4,7 +4,7 @@
 
 * [TDD Ensemble](tdd-ensemble-david)
 * [5 or more ways to find bugs](5-or-more-ways-to-find-bugs-patrick)
-
+* [Software Crafting Discussion](software-crafting-discussion)
 
 ## Day Two: 21st Sept. 2024
 
