@@ -12,4 +12,5 @@
 
 ## Day Two: 21st Sept. 2024
 
-* _TODO Add your sessions here_
+* [Best practices for successful GIT collaboration](2024-09-21T11h00-Best-practices-for-successful-GIT-collaboration-Bernd)
+* 
