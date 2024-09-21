@@ -8,6 +8,7 @@
 * [Running LLMs on your hardware with Ollama](running-llms-on-your-hardware-with-ollama)
 * [How NOT to modernize your legacy application](how-not-to-modernize-your-legacy-application)
 * [Domain Driven Design](domain-driven-design)
+* [Prompt Writing Self Help Group](prompt-writing-self-help-group.md)
 
 ## Day Two: 21st Sept. 2024
 
