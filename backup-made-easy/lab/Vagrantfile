@@ -1,0 +1,42 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+$segment = "192.168.33."
+$clustersuffix = ".k3s.local"
+
+Vagrant.configure("2") do |config|
+  config.vagrant.plugins = [ "vagrant-libvirt" ]
+  config.vm.box = "rockylinux/9"
+  config.vm.synced_folder ".", "/vagrant", type: "rsync"
+  config.ssh.config = File.expand_path(File.dirname(__FILE__) + '/ssh_config')
+
+  config.vm.provider :libvirt do |domain|
+    domain.storage_pool_name = 'pool'
+    domain.uri = 'qemu:///system'
+    domain.memory = 2048
+    domain.cpus = 2
+    domain.machine_virtual_size = 10
+    domain.nic_model_type = 'virtio'
+    domain.disk_driver :io => 'native'
+    domain.disk_driver :cache => 'none'
+  end
+
+  client_ip = "#{$segment}11"
+  server_ip = "#{$segment}10"
+  netmask = "255.255.255.0"
+
+  config.vm.define "client" do |it|
+    fqdn = "client"
+    it.vm.hostname = fqdn
+    it.vm.network :private_network, ip: client_ip, netmask: netmask, libvirt__domain_name: fqdn,
+      libvirt__forward_mode: 'route', libvirt__driver_queues: 2
+    it.vm.provision "shell", path: 'provision-client.sh', args: %W{#{server_ip}}
+  end
+  config.vm.define "server" do |it|
+    fqdn = "server"
+    it.vm.hostname = fqdn
+    it.vm.network :private_network, ip: server_ip, netmask: netmask, libvirt__domain_name: fqdn,
+      libvirt__forward_mode: 'route', libvirt__driver_queues: 2
+    it.vm.provision "shell", path: 'provision-server.sh'
+  end
+end
