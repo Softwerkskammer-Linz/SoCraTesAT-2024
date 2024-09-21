@@ -13,4 +13,4 @@
 ## Day Two: 21st Sept. 2024
 
 * [Best practices for successful GIT collaboration](2024-09-21T11h00-Best-practices-for-successful-GIT-collaboration-Bernd)
-* 
+* [DDD Tactical Design](ddd-tactical-design)
