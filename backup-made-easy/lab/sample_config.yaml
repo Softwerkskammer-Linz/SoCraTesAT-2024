@@ -1,0 +1,38 @@
+# Reference: https://torsion.org/borgmatic/docs/reference/configuration/
+source_directories:
+ - /home
+ - /etc
+ - /var
+ - /srv
+exclude_patterns:
+  - '*/cache/*'
+  - '*/.cache/*'
+  - '*/log/*'
+  - '*/.log/*'
+  - '*/temp/*'
+  - '*/tmp/*'
+  - '*/.tmp/*'
+exclude_caches: true
+
+# Paths of local or remote repositories to backup to.
+repositories:
+ - label: server
+   path: ssh://borgbackup@server/srv/backup/client
+
+ssh_command: "ssh -i /etc/borgmatic/ssh -T -c chacha20-poly1305@openssh.com -o Compression=no -o ControlMaster=no -o ControlPath=none -x"
+encryption_passphrase: super_DUPER_s3cr3+
+compression: zstd
+archive_name_format: "system-{now:%Y-%m-%dT%H:%M:%S.%f}"
+extra_borg_options:
+  create: --progress --filter AME --list --stats --show-rc
+
+# Retention policy for how many backups to keep.
+keep_daily: 7
+keep_weekly: 4
+keep_monthly: 12
+
+# List of checks to run to validate your backups.
+checks:
+- name: repository
+- name: archives
+check_last: 3
