@@ -79,6 +79,8 @@ Chat with the LLM
 
 ```
 >>> What is SoCraTes?
+```
+```
 SoCraTes (Self-Organizing Communities for Testing and Self-Assessment in Software Engineering) is a non-profit organization that aims to promote
 testing and self-assessment practices within the software development community.
 
@@ -86,3 +88,8 @@ The core idea behind SoCraTes is to create a space where developers, testers, an
 experiences, and best practices related to testing and quality assurance. The community encourages a collaborative approach to software development,
 emphasizing the importance of testing as an integral part of the development process.
 ```
+
+## Resources
+
+* [Wikipedia - Large language model](https://en.wikipedia.org/wiki/Large_language_model)
+* [DevoxxGenie](https://plugins.jetbrains.com/plugin/24169-devoxxgenie) - Java-based LLM Code Assistant plugin for IntelliJ IDEA, designed to integrate with local LLM providers e.g. Ollama
