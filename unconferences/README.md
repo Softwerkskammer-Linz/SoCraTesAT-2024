@@ -1,0 +1,16 @@
+- [Nuremberg](https://en.wikipedia.org/wiki/Nuremberg) (3h via direct train connection from Linz, 4h from Vienna):
+  - [Software Engineering Camp Erlangen](https://swe-camp.de/)
+  - [SoCraTes Day Franken](https://socrates-day-franken.de/)
+  - [Software Engineering Erlangen Camp](https://seneca.camp/)
+  - [DevOps Camp](https://devops-camp.de/)
+- [JSail](https://jsail.ijug.eu/)
+- Other [SoCraTes](https://www.socrates-conference.de/home#conferences) Unconferences
+  - [Codefreeze](https://codefreeze.fi/)
+  - [SoCraTes Switzerland](https://socrates-ch.org/)
+  - [JSCraftCamp](https://jscraftcamp.org/)
+  - [SoCraTes Austria](https://socrates-conference.at/)
+  - [SoCraTes Crete](https://socrates-crete.org/)
+- [BusConf](https://www.bus-conf.org/)
+- [Friends of Good Software](https://frogsconf.nl/)
+- [Collaborative Modeling Unconference](https://comocamp.org/)
+- [Håck ma's!](https://hack-mas.at/)
