@@ -1,5 +1,11 @@
 # SoCraTes Austria 2024
 
+## Staying in Touch
+
+- [Software Craft Communities Worldwide](https://www.softwarecrafters.org/)
+- [Software Crafters Slack](https://slack.softwarecrafters.org/)
+- [Software Crafters Slack - Austria Channel](https://softwarecrafters.slack.com/archives/CDESPD831)
+
 ## Day One: 20th Sept. 2024
 
 * [TDD Ensemble](tdd-ensemble-david)
