@@ -10,6 +10,7 @@
 * [Domain Driven Design](domain-driven-design)
 * [Prompt Writing Self Help Group](prompt-writing-self-help-group.md)
 * [Backup Made Easy](backup-made-easy)
+* [mob.sh Ensemble](mob.sh-ensemble)
 
 ## Day Two: 21st Sept. 2024
 
