@@ -17,6 +17,7 @@
 * [Prompt Writing Self Help Group](prompt-writing-self-help-group.md)
 * [Backup Made Easy](backup-made-easy)
 * [mob.sh Ensemble](mob.sh-ensemble)
+* [web testing via webQsee: features is not success](web-testing-via-webqsee-features-is-not-success)
 
 ## Day Two: 21st Sept. 2024
 
