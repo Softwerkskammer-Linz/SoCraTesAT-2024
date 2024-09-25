@@ -23,5 +23,6 @@
 
 * [Best practices for successful GIT collaboration](2024-09-21T11h00-Best-practices-for-successful-GIT-collaboration-Bernd)
 * [DDD Tactical Design](ddd-tactical-design)
+* [how i joined the 1kb club](how-i-joined-the-1kb-club)
 * [Lightning Talks](lightning-talks)
 * [The Survivor's Guide to OKR](the-survivor_s-guide-to-OKRs)
