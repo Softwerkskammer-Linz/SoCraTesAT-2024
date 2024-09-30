@@ -27,3 +27,4 @@
 * [how i joined the 1kb club](how-i-joined-the-1kb-club)
 * [Lightning Talks](lightning-talks)
 * [The Survivor's Guide to OKR](the-survivor_s-guide-to-OKRs)
+* [React Compiler](react-compiler)
