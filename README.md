@@ -19,6 +19,7 @@
 * [mob.sh Ensemble](mob.sh-ensemble)
 * [web testing via webQsee: features is not success](web-testing-via-webqsee-features-is-not-success)
 * [Introduction to Systems Thinking](introduction-to-systems-thinking)
+* [DDEV Docker + PHP](ddev-docker-php)
 
 ## Day Two: 21st Sept. 2024
 
