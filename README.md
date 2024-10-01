@@ -31,3 +31,4 @@
 * [The Survivor's Guide to OKR](the-survivor_s-guide-to-OKRs)
 * [React Compiler](react-compiler)
 * [Minimal APIs / Controller -> Router/Handler / Kotlin + Kotest](minimal-apis)
+* [Web-Component development. Storybook + Stencil](web-component-driven-development)
